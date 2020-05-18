@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+h1 {
+    font-size: 50px;
+}
+
+
+
+.highlighting {
+    color: goldenrod;
+}
+
+
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 50%;
+}
+
+
+
+section {
+    height: 500px;
+}
+
+.top-banner {
+    background-image: url("Images/top-banner.png");
+    background-repeat: no-repeat;
+}
