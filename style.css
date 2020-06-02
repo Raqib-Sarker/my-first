@@ -8,7 +8,7 @@ h1 {
 
 
 
-.highlighting {
+.goldenrod-highlighting {
     color: goldenrod;
 }
 
@@ -20,6 +20,19 @@ h1 {
     margin-left: 5%;
     padding-left: 2%;
 }
+
+.experences {
+    background-image:url(Images/exp-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+
 .half-width img{
     width: 100%;
 }
@@ -49,4 +62,22 @@ section {
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+
+#dev-1 {
+    border-left:  5px solid;
+    border-image: linear-gradient(18deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#dev-2 {
+    border-left:  5px solid;
+    border-image: linear-gradient(18deg,blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+footer p a {
+    text-decoration: none;
 }
